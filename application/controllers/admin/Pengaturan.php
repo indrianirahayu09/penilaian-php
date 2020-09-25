@@ -77,9 +77,9 @@ class Pengaturan extends CI_Controller {
 		$data = array(
 			'title'			=> 'Pengaturan Profil Sekolah | SMAS',
 			'data'			=> $this->pengaturan->profil_sekolah(),
-			'content'		=> 'admin/pengaturan/v_profil_sekolah'
+			'content'		=> 'admin/pengaturan/v_profil_sekolah_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function tahun_akademik()
@@ -106,9 +106,9 @@ class Pengaturan extends CI_Controller {
 		$data = array(
 			'title'			=> 'Pengaturan Tahun Akademik | SMAS',
 			'data'			=> $this->pengaturan->tahun_akademik(),
-			'content'		=> 'admin/pengaturan/v_tahun_akademik'
+			'content'		=> 'admin/pengaturan/v_tahun_akademik_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function profil()
@@ -182,9 +182,9 @@ class Pengaturan extends CI_Controller {
 		$data = array(
 			'title'			=> 'Pengaturan Profil | SMAS',
 			'detail'		=> $detail,
-			'content'		=> 'admin/pengaturan/v_profil'
+			'content'		=> 'admin/pengaturan/v_profil_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function ubah_password()
@@ -235,9 +235,9 @@ class Pengaturan extends CI_Controller {
 		$data = array(
 			'title'			=> 'Pengaturan Ubah Password | SMAS',
 			'detail'		=> $detail,
-			'content'		=> 'admin/pengaturan/v_ubah_password'
+			'content'		=> 'admin/pengaturan/v_ubah_password_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 }

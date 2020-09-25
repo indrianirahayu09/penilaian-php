@@ -18,9 +18,9 @@ class Dashboard extends CI_Controller {
 			'title'	=> 'Dashboard | Apps Sekolah',
 			'totsiswa'	=> $this->siswa->jml_siswa($data_guru->id_rombel),
 			'totmapel'	=> $this->jadwal->jml_mapel_guru($this->session->userdata('id_guru')),
-			'content'	=> 'guru/dashboard/v_content'
+			'content'	=> 'guru/dashboard/v_content_v2'
 		);
-		$this->load->view('guru/layout/v_wrapper', $data, FALSE);
+		$this->load->view('guru/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 }

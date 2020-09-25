@@ -14,9 +14,9 @@ class Mapel extends CI_Controller {
 		$data = array(
 			'title'	=> 'Mata Pelajaran Diampu | Apps Sekolah',
 			'data'	=> $this->jadwal->get_mapel_guru($this->session->userdata('id_guru')),
-			'content'	=> 'guru/mapel/v_content'
+			'content'	=> 'guru/mapel/v_content_v2'
 		);
-		$this->load->view('guru/layout/v_wrapper', $data, FALSE);
+		$this->load->view('guru/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 }

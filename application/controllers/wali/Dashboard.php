@@ -15,9 +15,9 @@ class Dashboard extends CI_Controller {
 		$data = array(
 			'title'	=> 'Dashboard | Apps Sekolah',
 			'pengumuman'	=> $this->pengumuman->list(),
-			'content'	=> 'wali/dashboard/v_content'
+			'content'	=> 'wali/dashboard/v_content_v2'
 		);
-		$this->load->view('wali/layout/v_wrapper', $data, FALSE);
+		$this->load->view('wali/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 }

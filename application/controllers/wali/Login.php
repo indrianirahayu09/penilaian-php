@@ -35,7 +35,7 @@ class Login extends CI_Controller {
 		$data = array(
 			'title'	=> 'Login Wali | Apps Sekolah'
 		);
-		$this->load->view('wali/login/v_content', $data, FALSE);
+		$this->load->view('wali/login/v_content_v2', $data, FALSE);
 	}
 
 	public function logout()

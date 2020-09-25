@@ -16,9 +16,9 @@ class Siswa extends CI_Controller {
 			'title'	=> 'Data Siswa | Apps Sekolah',
 			'data'	=> $this->siswa->rombel($data_guru->id_rombel),
 			'rombel'	=> $data_guru->rombel,
-			'content'	=> 'guru/siswa/v_content'
+			'content'	=> 'guru/siswa/v_content_v2'
 		);
-		$this->load->view('guru/layout/v_wrapper', $data, FALSE);
+		$this->load->view('guru/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 }

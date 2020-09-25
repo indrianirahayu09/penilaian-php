@@ -15,9 +15,9 @@ class Mapel extends CI_Controller {
 		$data = array(
 			'title'	=> 'Mata Pelajaran | Apps Sekolah',
 			'data'	=> $this->mapel->list(),
-			'content'	=> 'admin/mapel/v_content'
+			'content'	=> 'admin/mapel/v_content_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function add()
@@ -43,9 +43,9 @@ class Mapel extends CI_Controller {
 		$data = array(
 			'title'	=> 'Tambah Mata Pelajaran | Apps Sekolah',
 			'kelompok'	=> $this->mapel->list_kelompok(),
-			'content'	=> 'admin/mapel/v_add'
+			'content'	=> 'admin/mapel/v_add_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function edit($id_mapel)
@@ -76,9 +76,9 @@ class Mapel extends CI_Controller {
 			'title'	=> 'Ubah Mata Pelajaran | Apps Sekolah',
 			'kelompok'	=> $this->mapel->list_kelompok(),
 			'detail'	=> $detail,
-			'content'	=> 'admin/mapel/v_edit'
+			'content'	=> 'admin/mapel/v_edit_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function delete($id_mapel)
@@ -96,9 +96,9 @@ class Mapel extends CI_Controller {
 		$data = array(
 			'title'	=> 'KKM Mata Pelajaran | Apps Sekolah',
 			'data'	=> $this->mapel->list_kkm(),
-			'content'	=> 'admin/mapel/v_kkm'
+			'content'	=> 'admin/mapel/v_kkm_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function add_kkm()
@@ -125,9 +125,9 @@ class Mapel extends CI_Controller {
 		$data = array(
 			'title'	=> 'Tambah KKM Mata Pelajaran | Apps Sekolah',
 			'mapel'	=> $this->mapel->list(),
-			'content'	=> 'admin/mapel/v_add_kkm'
+			'content'	=> 'admin/mapel/v_add_kkm_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function edit_kkm($id_kkm)
@@ -158,9 +158,9 @@ class Mapel extends CI_Controller {
 			'title'	=> 'Ubah KKM Mata Pelajaran | Apps Sekolah',
 			'mapel'	=> $this->mapel->list(),
 			'detail'	=> $detail,
-			'content'	=> 'admin/mapel/v_edit_kkm'
+			'content'	=> 'admin/mapel/v_edit_kkm_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function delete_kkm($id_kkm)

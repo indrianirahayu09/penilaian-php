@@ -15,9 +15,9 @@ class Kelas extends CI_Controller {
 		$data = array(
 			'title'	=> 'Data Kelas | Apps Sekolah',
 			'data'	=> $this->kelas->list(),
-			'content'	=> 'admin/kelas/v_content'
+			'content'	=> 'admin/kelas/v_content_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function add()
@@ -74,9 +74,9 @@ class Kelas extends CI_Controller {
 			'title'	=> 'Data Kelas | Apps Sekolah',
 			'jurusan'	=> $this->kelas->jurusan(),
 			'guru'		=> $this->guru->list(),
-			'content'	=> 'admin/kelas/v_add'
+			'content'	=> 'admin/kelas/v_add_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function edit($id_rombel)
@@ -114,9 +114,9 @@ class Kelas extends CI_Controller {
 			'jurusan'	=> $this->kelas->jurusan(),
 			'guru'		=> $this->guru->list(),
 			'detail'	=> $detail,
-			'content'	=> 'admin/kelas/v_edit'
+			'content'	=> 'admin/kelas/v_edit_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function delete($id_rombel)

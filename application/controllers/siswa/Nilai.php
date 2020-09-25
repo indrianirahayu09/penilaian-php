@@ -21,9 +21,9 @@ class Nilai extends CI_Controller {
 			'title'	=> 'Nilai | Apps Sekolah',
 			'siswa'	=> $this->siswa->detail($id_siswa),
 			'kelompok'	=> $this->mapel->list_kelompok(),
-			'content'	=> 'siswa/nilai/v_content'
+			'content'	=> 'siswa/nilai/v_content_v2'
 		);
-		$this->load->view('siswa/layout/v_wrapper', $data, FALSE);
+		$this->load->view('siswa/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 }

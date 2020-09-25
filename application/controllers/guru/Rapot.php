@@ -24,9 +24,9 @@ class Rapot extends CI_Controller {
 			'kkm'	=> $this->mapel->detail_kkm2($detail->id_mapel),
 			'wali_kelas'	=> $wali_kelas->nama_guru,
 			'siswa'	=> $this->siswa->rombel($detail->id_rombel),
-			'content'	=> 'guru/rapot/v_input'
+			'content'	=> 'guru/rapot/v_input_v2'
 		);
-		$this->load->view('guru/layout/v_wrapper', $data, FALSE);
+		$this->load->view('guru/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function cek()
@@ -216,9 +216,9 @@ class Rapot extends CI_Controller {
 		$data = array(
 			'title'	=> 'Nilai Rapot | Apps Sekolah',
 			'data'	=> $this->siswa->rombel($data_guru->id_rombel),
-			'content'	=> 'guru/rapot/v_nilai'
+			'content'	=> 'guru/rapot/v_nilai_v2'
 		);
-		$this->load->view('guru/layout/v_wrapper', $data, FALSE);
+		$this->load->view('guru/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function lihat_nilat_rapot($id_siswa)
@@ -227,9 +227,9 @@ class Rapot extends CI_Controller {
 			'title'	=> 'Nilai Rapot | Apps Sekolah',
 			'siswa'	=> $this->siswa->detail($id_siswa),
 			'kelompok'	=> $this->mapel->list_kelompok(),
-			'content'	=> 'guru/rapot/v_lihat_nilai'
+			'content'	=> 'guru/rapot/v_lihat_nilai_v2'
 		);
-		$this->load->view('guru/layout/v_wrapper', $data, FALSE);
+		$this->load->view('guru/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function input_data_rapot()
@@ -238,7 +238,7 @@ class Rapot extends CI_Controller {
 			'title'	=> 'Nilai Rapot | Apps Sekolah',
 			'content'	=> 'guru/rapot/v_input_data_rapot'
 		);
-		$this->load->view('guru/layout/v_wrapper', $data, FALSE);
+		$this->load->view('guru/layout/v_wrapper_v2', $data, FALSE);
 	}
 }
 

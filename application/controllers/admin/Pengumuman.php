@@ -15,9 +15,9 @@ class Pengumuman extends CI_Controller {
 		$data = array(
 			'title'	=> 'Pengumuman | Apps Sekolah',
 			'data'	=> $this->pengumuman->list(),
-			'content'	=> 'admin/pengumuman/v_content'
+			'content'	=> 'admin/pengumuman/v_content_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function edit()

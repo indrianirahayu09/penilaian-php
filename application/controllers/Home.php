@@ -8,7 +8,7 @@ class Home extends CI_Controller {
 		$data = array(
 			'title'	=> 'Home | Apps Sekolah'
 		);
-		$this->load->view('home', $data, FALSE);
+		$this->load->view('home_v2', $data, FALSE);
 	}
 
 }

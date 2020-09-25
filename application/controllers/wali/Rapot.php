@@ -23,9 +23,9 @@ class Rapot extends CI_Controller {
 			'kelompok'	=> $this->mapel->list_kelompok(),
 			'profil_sekolah'	=> $this->public_model->get_profil_sekolah(),
 			'semester'	=> $this->public_model->get_semester(),
-			'content'	=> 'wali/rapot/v_content'
+			'content'	=> 'wali/rapot/v_content_v2'
 		);
-		$this->load->view('wali/layout/v_wrapper', $data, FALSE);
+		$this->load->view('wali/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 }

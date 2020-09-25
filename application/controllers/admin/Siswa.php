@@ -15,9 +15,9 @@ class Siswa extends CI_Controller {
 		$data = array(
 			'title'	=> 'Data Siswa | Apps Sekolah',
 			'data'	=> $this->siswa->list(),
-			'content'	=> 'admin/siswa/v_content'
+			'content'	=> 'admin/siswa/v_content_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function add()
@@ -109,9 +109,9 @@ class Siswa extends CI_Controller {
 			'title'	=> 'Data Siswa | Apps Sekolah',
 			'kelas'	=> $this->kelas->list_kelas(),
 			'rombel'	=> $this->kelas->list(),
-			'content'	=> 'admin/siswa/v_add'
+			'content'	=> 'admin/siswa/v_add_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function edit($id_siswa)
@@ -206,9 +206,9 @@ class Siswa extends CI_Controller {
 			'kelas'	=> $this->kelas->list_kelas(),
 			'rombel'	=> $this->kelas->list(),
 			'detail'	=> $detail,
-			'content'	=> 'admin/siswa/v_edit'
+			'content'	=> 'admin/siswa/v_edit_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function delete($id_siswa)
@@ -236,9 +236,9 @@ class Siswa extends CI_Controller {
 		$data = array(
 			'title'	=> 'Data Wali | Apps Sekolah',
 			'data'	=> $this->siswa->list_wali(),
-			'content'	=> 'admin/siswa/v_wali'
+			'content'	=> 'admin/siswa/v_wali_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 }

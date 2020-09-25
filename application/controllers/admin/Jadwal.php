@@ -15,9 +15,9 @@ class Jadwal extends CI_Controller {
 		$data = array(
 			'title'	=> 'Data Jadwal | Apps Sekolah',
 			'data'	=> $this->jadwal->list(),
-			'content'	=> 'admin/jadwal/v_content'
+			'content'	=> 'admin/jadwal/v_content_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function add()
@@ -54,9 +54,9 @@ class Jadwal extends CI_Controller {
 			'guru'	=> $this->jadwal->guru(),
 			'mapel'	=> $this->jadwal->mapel(),
 			'rombel'	=> $this->jadwal->rombel(),
-			'content'	=> 'admin/jadwal/v_add'
+			'content'	=> 'admin/jadwal/v_add_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function edit($id_jadwal)
@@ -97,9 +97,9 @@ class Jadwal extends CI_Controller {
 			'mapel'	=> $this->jadwal->mapel(),
 			'rombel'	=> $this->jadwal->rombel(),
 			'detail' => $detail,
-			'content'	=> 'admin/jadwal/v_edit'
+			'content'	=> 'admin/jadwal/v_edit_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function delete($id_jadwal)

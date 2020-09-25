@@ -14,9 +14,9 @@ class Guru extends CI_Controller {
 		$data = array(
 			'title'	=> 'Data Guru | Apps Sekolah',
 			'data'	=> $this->guru->list(),
-			'content'	=> 'admin/guru/v_content'
+			'content'	=> 'admin/guru/v_content_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function detail($id_guru)
@@ -24,9 +24,9 @@ class Guru extends CI_Controller {
 		$data = array(
 			'title'	=> 'Data Guru | Apps Sekolah',
 			'detail'	=> $this->guru->detail($id_guru),
-			'content'	=> 'admin/guru/v_detail'
+			'content'	=> 'admin/guru/v_detail_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function add()
@@ -103,9 +103,9 @@ class Guru extends CI_Controller {
 
 		$data = array(
 			'title'	=> 'Tambah Data Guru | Apps Sekolah',
-			'content'	=> 'admin/guru/v_add'
+			'content'	=> 'admin/guru/v_add_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function edit($id_guru)
@@ -191,9 +191,9 @@ class Guru extends CI_Controller {
 		$data = array(
 			'title'	=> 'Tambah Data Guru | Apps Sekolah',
 			'detail'	=> $detail,
-			'content'	=> 'admin/guru/v_edit'
+			'content'	=> 'admin/guru/v_edit_v2'
 		);
-		$this->load->view('admin/layout/v_wrapper', $data, FALSE);
+		$this->load->view('admin/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function delete($id_guru)

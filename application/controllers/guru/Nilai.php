@@ -24,9 +24,9 @@ class Nilai extends CI_Controller {
 			'kkm'	=> $this->mapel->detail_kkm2($detail->id_mapel),
 			'wali_kelas'	=> $wali_kelas->nama_guru,
 			'siswa'	=> $this->siswa->rombel($detail->id_rombel),
-			'content'	=> 'guru/nilai/v_input'
+			'content'	=> 'guru/nilai/v_input_v2'
 		);
-		$this->load->view('guru/layout/v_wrapper', $data, FALSE);
+		$this->load->view('guru/layout/v_wrapper_v2', $data, FALSE);
 	}
 
 	public function input_nilai()
