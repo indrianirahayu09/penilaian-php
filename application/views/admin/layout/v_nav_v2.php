@@ -71,7 +71,7 @@
                     </a>
                   </li>
                   <li class="m-menu__item "  aria-haspopup="true">
-                    <a  href="<?= base_url() ?>admin/guru" class="m-menu__link ">
+                    <a  href="<?= base_url() ?>admin/jurusan" class="m-menu__link ">
                       <i class="m-menu__link-icon fa fa-sitemap"></i>
                       <span class="m-menu__link-text">
                         Data Jurusan
@@ -111,10 +111,10 @@
                     </a>
                   </li>
                   <li class="m-menu__item "  aria-haspopup="true">
-                    <a  href="<?= base_url() ?>admin/mapel" class="m-menu__link ">
+                    <a  href="<?= base_url() ?>admin/kelompok_mapel" class="m-menu__link ">
                       <i class="m-menu__link-icon fa fa-bookmark-o"></i>
                       <span class="m-menu__link-text">
-                        Deskripsi Mata Pelajaran
+                        Kelompok Mata Pelajaran
                       </span>
                     </a>
                   </li>

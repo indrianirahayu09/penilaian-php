@@ -109,7 +109,7 @@
                           </li>
                           <li class="m-nav__separator m-nav__separator--fit"></li>
                           <li class="m-nav__item">
-                            <a href=""<?= base_url() ?>siswa/login/logout" class="btn m-btn--pill btn-secondary m-btn m-btn--custom m-btn--label-brand m-btn--bolder"><i class="m-nav__link-icon fa fa-share-square-o"></i>
+                            <a href="<?= base_url() ?>siswa/login/logout" class="btn m-btn--pill btn-secondary m-btn m-btn--custom m-btn--label-brand m-btn--bolder"><i class="m-nav__link-icon fa fa-share-square-o"></i>
                               Keluar
                             </a>
                           </li>

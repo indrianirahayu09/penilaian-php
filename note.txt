@@ -1,0 +1,33 @@
+[19:01, 9/27/2020] IndrianiPuji ⚘: ADMIN 
+- Login admin kekunci (gk bisa nambah user) 
+- Di data master 
+     -> data jurusan eror (DONE)
+     -> data ortu (blm ada aksi tambah dll) (next)
+     -> deskripsi mapel diganti kelompok mapel kyk di db 
+     -> di master data tambah data absensi siswa (next)
+[19:01, 9/27/2020] IndrianiPuji ⚘: SISWA
+ - nambah laporan KD pengetahuan dan KD keterampilan di menu bar nilai 
+- logout (DONE)
+[19:01, 9/27/2020] IndrianiPuji ⚘: ORTU 
+- Di menu bar ditambah menu 'grafik nilai' (grafik persemester) 
+- pelanggaran eror 
+- profil ortu eror
+[19:01, 9/27/2020] IndrianiPuji ⚘: GURU 
+- di menu bar siswa eror (pindah ke halaman admin) (menu bar siswa berisi nama siswa didik, jika guru bukan wali kelas maka tdk ada daftar siswa) 
+- pengaturan eror 
+- input KD pengetahuan dan KD keterampilan di mapel diampu 
+- E-raport di menu bar ganti nama jd laporan > didalam laporan ada lap KD pengetahuan, KD keterampilan dan E-raport jika sudah di cetak wali kelas
+[19:02, 9/27/2020] IndrianiPuji ⚘: DATABASE
+- data raport
+- ekskul
+- nilai
+- rapot
+
+Kayak e itu dihilangin, ganti tabel lain yg sesuai
+
+
+Guru nip pass juga nip
+Siswa no induk pass juga no induk (yg 4 digit)
+ortu no telpon pass jg sama
+Admin : aris 
+Pass : 2
