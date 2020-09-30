@@ -126,6 +126,14 @@
                       </span>
                     </a>
                   </li>
+                  <li class="m-menu__item "  aria-haspopup="true">
+                    <a  href="<?= base_url() ?>admin/tu" class="m-menu__link ">
+                      <i class="m-menu__link-icon fa fa-user"></i>
+                      <span class="m-menu__link-text">
+                        Master TU
+                      </span>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>

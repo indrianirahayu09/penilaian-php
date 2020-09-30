@@ -1,9 +1,9 @@
 [19:01, 9/27/2020] IndrianiPuji ⚘: ADMIN 
-- Login admin kekunci (gk bisa nambah user) 
+- Login admin kekunci (gk bisa nambah user) (DONE)
 - Di data master 
      -> data jurusan eror (DONE)
      -> data ortu (blm ada aksi tambah dll) (next)
-     -> deskripsi mapel diganti kelompok mapel kyk di db 
+     -> deskripsi mapel diganti kelompok mapel kyk di db (DONE)
      -> di master data tambah data absensi siswa (next)
 [19:01, 9/27/2020] IndrianiPuji ⚘: SISWA
  - nambah laporan KD pengetahuan dan KD keterampilan di menu bar nilai 
