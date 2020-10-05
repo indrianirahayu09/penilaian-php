@@ -11,7 +11,7 @@
 [19:01, 9/27/2020] IndrianiPuji ⚘: ORTU 
 - Di menu bar ditambah menu 'grafik nilai' (grafik persemester)  (fahmi)
 - pelanggaran eror 
-- profil ortu eror (fahmi)
+- profil ortu eror ( fahmi)
 [19:01, 9/27/2020] IndrianiPuji ⚘: GURU 
 - di menu bar siswa eror (pindah ke halaman admin) (menu bar siswa berisi nama siswa didik, jika guru bukan wali kelas maka tdk ada daftar siswa) 
 - pengaturan eror  (fahmi)
